@@ -3,11 +3,11 @@ TuShare
 
 TuShare是实现对股票/期货等金融数据从**数据采集**、**清洗加工** 到 **数据存储**过程的工具，满足金融量化分析师和学习数据分析的人在数据获取方面的需求，它的特点是数据覆盖范围广，接口调用简单,响应快速。
 
-![](http://tushare.waditu.com/_images/main_pic_min.png)
+![](http://tushare.org/_images/main_pic_min.png)
 
 欢迎关注扫描TuShare的微信公众号“挖地兔”，更多资源和信息与您分享：
 
-![](http://tushare.waditu.com/_images/8.jpg)
+![](http://tushare.org/_images/8.jpg)
 
 
 提示：目前正在规划和开发tushare全新版本，数据内容、数据质量和稳定性将得到明显提高，敬请期待。老版本代码暂不作更新，不过有兴趣的朋友还是可以愉快的玩耍。
@@ -180,6 +180,17 @@ Quick Start
  
 Change Logs
 -----------
+
+0.8.0 2017/06/05
+===========
+
+- 新增期货行情数据6个接口，感谢debugo贡献代码
+- 修复部分bug
+
+0.7.6 2017/05/16
+=============
+- get\_today\_all接口数据补齐
+- forecast\_data mac下编码问题修复
 
 0.7.0 2017/03/12
 =============
